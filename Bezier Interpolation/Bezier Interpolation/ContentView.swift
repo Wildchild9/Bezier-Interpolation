@@ -22,11 +22,13 @@ struct ContentView: View {
             Text("Hello World!")
                 .font(.system(size: 30))
                 .fontWeight(.light)
+                .foregroundColor(.primary)
                 .background(Color.red)
             
             Spacer()
             
             TextShapeView(text: text)
+                .foregroundColor(.primary)
                 .background(Color.blue)
             
             Spacer()
