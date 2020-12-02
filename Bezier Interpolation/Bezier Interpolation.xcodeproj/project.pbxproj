@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C245868125784968001EE51A /* TextShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C245868025784968001EE51A /* TextShape.swift */; };
+		C2458684257849B7001EE51A /* TextShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2458683257849B7001EE51A /* TextShapeView.swift */; };
 		C27826D32576F56D00B24A55 /* Bezier_InterpolationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27826D22576F56D00B24A55 /* Bezier_InterpolationApp.swift */; };
 		C27826D52576F56D00B24A55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27826D42576F56D00B24A55 /* ContentView.swift */; };
 		C27826D72576F57000B24A55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27826D62576F57000B24A55 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C245868025784968001EE51A /* TextShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextShape.swift; sourceTree = "<group>"; };
+		C2458683257849B7001EE51A /* TextShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextShapeView.swift; sourceTree = "<group>"; };
 		C27826CF2576F56D00B24A55 /* Bezier Interpolation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bezier Interpolation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27826D22576F56D00B24A55 /* Bezier_InterpolationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bezier_InterpolationApp.swift; sourceTree = "<group>"; };
 		C27826D42576F56D00B24A55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 			children = (
 				C27826D22576F56D00B24A55 /* Bezier_InterpolationApp.swift */,
 				C27826D42576F56D00B24A55 /* ContentView.swift */,
+				C2458683257849B7001EE51A /* TextShapeView.swift */,
+				C245868025784968001EE51A /* TextShape.swift */,
 				C27826D62576F57000B24A55 /* Assets.xcassets */,
 				C27826DB2576F57000B24A55 /* Info.plist */,
 				C27826DC2576F57000B24A55 /* Bezier_Interpolation.entitlements */,
@@ -141,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C27826D52576F56D00B24A55 /* ContentView.swift in Sources */,
+				C245868125784968001EE51A /* TextShape.swift in Sources */,
 				C27826D32576F56D00B24A55 /* Bezier_InterpolationApp.swift in Sources */,
+				C2458684257849B7001EE51A /* TextShapeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,9 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    var text: NSAttributedString {
+        NSAttributedString(
+            string: "Hello World!",
+            attributes: [.font: NSFont.systemFont(ofSize: 30)]
+        )
+    }
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Spacer()
+            
+            Text("Hello World!")
+                .font(.system(size: 30))
+                .fontWeight(.light)
+                .background(Color.red)
+            
+            Spacer()
+            
+            TextShapeView(text: text)
+                .background(Color.blue)
+            
+            Spacer()
+        }
+        .frame(width: 300, height: 300)
     }
 }
 
