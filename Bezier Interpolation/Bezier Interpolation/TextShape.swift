@@ -96,8 +96,8 @@ func bezierFunctions(from path: Path) -> [(CGFloat) -> CGPoint] {
         case let .quadCurve(to: p2, control: c):
             // w₁(1 - t)² + 2w₂(1 - t)t + w₃t²
             functions.append({ t in
-                let x = p1.x * pow(1 - t, 2) + c.x * 1 * (1 - t) * t + p2.x * pow(t, 2)
-                let y = p1.y * pow(1 - t, 2) + c.y * 1 * (1 - t) * t + p2.y * pow(t, 2)
+                let x = p1.x * pow(1 - t, 2) + c.x * 2 * (1 - t) * t + p2.x * pow(t, 2)
+                let y = p1.y * pow(1 - t, 2) + c.y * 2 * (1 - t) * t + p2.y * pow(t, 2)
                 return CGPoint(x: x, y: y)
             })
             p1 = p2
